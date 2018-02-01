@@ -28,6 +28,9 @@
 		0EFD01972023855A009FF23D /* CreateGroupsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EFD01962023855A009FF23D /* CreateGroupsVC.swift */; };
 		0EFD019920239A75009FF23D /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EFD019820239A75009FF23D /* UserCell.swift */; };
 		0EFD019B2023C5B7009FF23D /* GroupCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EFD019A2023C5B7009FF23D /* GroupCell.swift */; };
+		0EFD019D2023CDAE009FF23D /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EFD019C2023CDAE009FF23D /* Group.swift */; };
+		0EFD019F2023D971009FF23D /* GroupFeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EFD019E2023D971009FF23D /* GroupFeedCell.swift */; };
+		0EFD01A12023D9CE009FF23D /* GroupFeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EFD01A02023D9CE009FF23D /* GroupFeedVC.swift */; };
 		2EDB00AFED2199A732848D08 /* Pods_breakpoint.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0E068B05742EBA3407FF581 /* Pods_breakpoint.framework */; };
 /* End PBXBuildFile section */
 
@@ -55,6 +58,9 @@
 		0EFD01962023855A009FF23D /* CreateGroupsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGroupsVC.swift; sourceTree = "<group>"; };
 		0EFD019820239A75009FF23D /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
 		0EFD019A2023C5B7009FF23D /* GroupCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupCell.swift; sourceTree = "<group>"; };
+		0EFD019C2023CDAE009FF23D /* Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
+		0EFD019E2023D971009FF23D /* GroupFeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupFeedCell.swift; sourceTree = "<group>"; };
+		0EFD01A02023D9CE009FF23D /* GroupFeedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupFeedVC.swift; sourceTree = "<group>"; };
 		8215B4EB34320274F5D14394 /* Pods-breakpoint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-breakpoint.debug.xcconfig"; path = "Pods/Target Support Files/Pods-breakpoint/Pods-breakpoint.debug.xcconfig"; sourceTree = "<group>"; };
 		B0E068B05742EBA3407FF581 /* Pods_breakpoint.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_breakpoint.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F038CA3CFCE7CB3934539042 /* Pods-breakpoint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-breakpoint.release.xcconfig"; path = "Pods/Target Support Files/Pods-breakpoint/Pods-breakpoint.release.xcconfig"; sourceTree = "<group>"; };
@@ -118,6 +124,7 @@
 				0E71C2F020224FE3008C3CC1 /* MeVC.swift */,
 				0E71C2F220225951008C3CC1 /* CreatePostVC.swift */,
 				0EFD01962023855A009FF23D /* CreateGroupsVC.swift */,
+				0EFD01A02023D9CE009FF23D /* GroupFeedVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -126,6 +133,7 @@
 			isa = PBXGroup;
 			children = (
 				0E71C2F820227EA8008C3CC1 /* Message.swift */,
+				0EFD019C2023CDAE009FF23D /* Group.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -138,6 +146,7 @@
 				0E71C2F620227D1B008C3CC1 /* FeedCell.swift */,
 				0EFD019820239A75009FF23D /* UserCell.swift */,
 				0EFD019A2023C5B7009FF23D /* GroupCell.swift */,
+				0EFD019E2023D971009FF23D /* GroupFeedCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -318,9 +327,12 @@
 				0E0A808A202151C700CFEB8F /* AuthVC.swift in Sources */,
 				0E3DE9EC2021287900B83285 /* GroupsVC.swift in Sources */,
 				0E0A808C202151FE00CFEB8F /* LoginVC.swift in Sources */,
+				0EFD01A12023D9CE009FF23D /* GroupFeedVC.swift in Sources */,
+				0EFD019F2023D971009FF23D /* GroupFeedCell.swift in Sources */,
 				0E71C2EF202236A0008C3CC1 /* AuthService.swift in Sources */,
 				0EFD01972023855A009FF23D /* CreateGroupsVC.swift in Sources */,
 				0EFD019920239A75009FF23D /* UserCell.swift in Sources */,
+				0EFD019D2023CDAE009FF23D /* Group.swift in Sources */,
 				0E3DE9E82021287900B83285 /* AppDelegate.swift in Sources */,
 				0EFD019B2023C5B7009FF23D /* GroupCell.swift in Sources */,
 				0E71C2ED202233FA008C3CC1 /* ShadowView.swift in Sources */,
