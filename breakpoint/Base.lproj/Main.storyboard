@@ -357,7 +357,7 @@
         <!--Group FeedVC-->
         <scene sceneID="IeW-Og-nSk">
             <objects>
-                <viewController id="iHL-W4-4Jx" customClass="GroupFeedVC" customModule="breakpoint" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="GroupFeedVC" id="iHL-W4-4Jx" customClass="GroupFeedVC" customModule="breakpoint" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="YDb-Ew-p0N">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -365,7 +365,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jCV-KE-we6">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="70"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="_groupTitle" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vE7-Sd-I0g">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="_groupTitle" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vE7-Sd-I0g">
                                         <rect key="frame" x="145.5" y="34.5" width="84" height="21"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="21" id="2wC-AD-oo0"/>
@@ -374,7 +374,7 @@
                                         <color key="textColor" red="0.0" green="0.97680455450000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H5P-nX-iPI">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H5P-nX-iPI">
                                         <rect key="frame" x="20" y="30" width="30" height="30"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="30" id="IkU-RK-JdW"/>
@@ -392,6 +392,7 @@
                                     <constraint firstAttribute="height" constant="70" id="5Fo-MF-vmb"/>
                                     <constraint firstItem="vE7-Sd-I0g" firstAttribute="centerY" secondItem="H5P-nX-iPI" secondAttribute="centerY" id="5h1-oY-2YD"/>
                                     <constraint firstItem="vE7-Sd-I0g" firstAttribute="centerX" secondItem="jCV-KE-we6" secondAttribute="centerX" id="M5B-hj-G1y"/>
+                                    <constraint firstAttribute="bottom" secondItem="vE7-Sd-I0g" secondAttribute="bottom" constant="15" id="Nfq-D3-T7P"/>
                                     <constraint firstItem="H5P-nX-iPI" firstAttribute="leading" secondItem="jCV-KE-we6" secondAttribute="leading" constant="20" id="UW7-jb-PLn"/>
                                 </constraints>
                             </view>
