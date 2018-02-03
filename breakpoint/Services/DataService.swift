@@ -87,7 +87,6 @@ class DataService {
             }
             handler(groupMessageArray)
         }
-        
     }
     
     func getEmail(forSearchQuery query:String, handler: @escaping (_ emailArray: [String]) -> ()) {
@@ -153,6 +152,5 @@ class DataService {
             }
             handler(groupsArray)
         }
-        
     }
 }
